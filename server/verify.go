@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/google/go-tpm-tools/internal"
-	pb "github.com/google/go-tpm-tools/proto/attest"
-	tpmpb "github.com/google/go-tpm-tools/proto/tpm"
+	"github.com/Daviiap/go-tpm-tools/internal"
+	pb "github.com/Daviiap/go-tpm-tools/proto/attest"
+	tpmpb "github.com/Daviiap/go-tpm-tools/proto/tpm"
 	"github.com/google/go-tpm/legacy/tpm2"
 	"google.golang.org/protobuf/proto"
 )

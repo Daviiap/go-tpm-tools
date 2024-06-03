@@ -8,10 +8,10 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/Daviiap/go-tpm-tools/cel"
+	pb "github.com/Daviiap/go-tpm-tools/proto/attest"
+	tpmpb "github.com/Daviiap/go-tpm-tools/proto/tpm"
 	"github.com/google/go-attestation/attest"
-	"github.com/google/go-tpm-tools/cel"
-	pb "github.com/google/go-tpm-tools/proto/attest"
-	tpmpb "github.com/google/go-tpm-tools/proto/tpm"
 	"github.com/google/go-tpm/legacy/tpm2"
 )
 

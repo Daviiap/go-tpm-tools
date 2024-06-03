@@ -1,4 +1,4 @@
-module github.com/google/go-tpm-tools/launcher
+module github.com/Daviiap/go-tpm-tools/launcher
 
 go 1.21
 
@@ -10,8 +10,8 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/google/go-cmp v0.6.0
 	github.com/google/go-tpm v0.9.0
-	github.com/google/go-tpm-tools v0.4.4
-	github.com/google/go-tpm-tools/verifier v0.4.4
+	github.com/Daviiap/go-tpm-tools v0.4.4
+	github.com/Daviiap/go-tpm-tools/verifier v0.4.4
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0
 	github.com/opencontainers/runtime-spec v1.1.0
@@ -85,6 +85,6 @@ require (
 )
 
 replace (
-	github.com/google/go-tpm-tools v0.4.4 => ../
-	github.com/google/go-tpm-tools/verifier v0.4.4 => ../verifier
+	github.com/Daviiap/go-tpm-tools v0.4.4 => ../
+	github.com/Daviiap/go-tpm-tools/verifier v0.4.4 => ../verifier
 )

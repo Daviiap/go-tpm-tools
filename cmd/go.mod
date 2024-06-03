@@ -1,4 +1,4 @@
-module github.com/google/go-tpm-tools/cmd
+module github.com/Daviiap/go-tpm-tools/cmd
 
 go 1.21
 
@@ -11,8 +11,8 @@ require (
 	github.com/google/go-sev-guest v0.9.3
 	github.com/google/go-tdx-guest v0.3.1
 	github.com/google/go-tpm v0.9.0
-	github.com/google/go-tpm-tools v0.4.4
-	github.com/google/go-tpm-tools/verifier v0.4.4
+	github.com/Daviiap/go-tpm-tools v0.4.4
+	github.com/Daviiap/go-tpm-tools/verifier v0.4.4
 	github.com/spf13/cobra v1.6.1
 	golang.org/x/oauth2 v0.20.0
 	google.golang.org/api v0.177.0
@@ -65,6 +65,6 @@ require (
 )
 
 replace (
-	github.com/google/go-tpm-tools v0.4.4 => ../
-	github.com/google/go-tpm-tools/verifier v0.4.4 => ../verifier
+	github.com/Daviiap/go-tpm-tools v0.4.4 => ../
+	github.com/Daviiap/go-tpm-tools/verifier v0.4.4 => ../verifier
 )

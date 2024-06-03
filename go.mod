@@ -1,4 +1,4 @@
-module github.com/google/go-tpm-tools
+module github.com/Daviiap/go-tpm-tools
 
 go 1.20
 
@@ -8,6 +8,7 @@ require (
 	github.com/google/go-sev-guest v0.9.3
 	github.com/google/go-tdx-guest v0.3.1
 	github.com/google/go-tpm v0.9.0
+	github.com/google/go-tpm-tools v0.4.2
 	github.com/google/logger v1.1.1
 	google.golang.org/protobuf v1.34.1
 )

@@ -8,9 +8,9 @@ import (
 	"io"
 	"testing"
 
+	"github.com/Daviiap/go-tpm-tools/client"
+	"github.com/Daviiap/go-tpm-tools/internal/test"
 	"github.com/google/go-attestation/attest"
-	"github.com/google/go-tpm-tools/client"
-	"github.com/google/go-tpm-tools/internal/test"
 	"github.com/google/go-tpm/legacy/tpm2"
 )
 

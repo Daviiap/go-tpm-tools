@@ -4,7 +4,7 @@ package main
 import (
 	"os"
 
-	"github.com/google/go-tpm-tools/cmd"
+	"github.com/Daviiap/go-tpm-tools/cmd"
 )
 
 func main() {

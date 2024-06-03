@@ -6,12 +6,12 @@ import (
 	"io"
 	"net/http"
 
+	pb "github.com/Daviiap/go-tpm-tools/proto/attest"
 	sabi "github.com/google/go-sev-guest/abi"
 	sg "github.com/google/go-sev-guest/client"
 	tg "github.com/google/go-tdx-guest/client"
 	tabi "github.com/google/go-tdx-guest/client/linuxabi"
 	tpb "github.com/google/go-tdx-guest/proto/tdx"
-	pb "github.com/google/go-tpm-tools/proto/attest"
 )
 
 const (

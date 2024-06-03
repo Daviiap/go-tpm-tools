@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/google/go-tpm-tools/client"
+	"github.com/Daviiap/go-tpm-tools/client"
 	"github.com/google/go-tpm/legacy/tpm2"
 )
 

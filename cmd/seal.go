@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/google/go-tpm-tools/client"
-	pb "github.com/google/go-tpm-tools/proto/tpm"
+	"github.com/Daviiap/go-tpm-tools/client"
+	pb "github.com/Daviiap/go-tpm-tools/proto/tpm"
 	"github.com/google/go-tpm/legacy/tpm2"
 )
 

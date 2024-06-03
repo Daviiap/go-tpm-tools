@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Daviiap/go-tpm-tools/client"
+	"github.com/Daviiap/go-tpm-tools/internal/test"
+	pb "github.com/Daviiap/go-tpm-tools/proto/attest"
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-tpm-tools/client"
-	"github.com/google/go-tpm-tools/internal/test"
-	pb "github.com/google/go-tpm-tools/proto/attest"
 )
 
 func TestCosEventlog(t *testing.T) {

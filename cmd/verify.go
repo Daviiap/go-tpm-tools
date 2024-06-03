@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
+	pb "github.com/Daviiap/go-tpm-tools/proto/attest"
+	"github.com/Daviiap/go-tpm-tools/server"
 	sv "github.com/google/go-sev-guest/verify"
 	tv "github.com/google/go-tdx-guest/verify"
-	pb "github.com/google/go-tpm-tools/proto/attest"
-	"github.com/google/go-tpm-tools/server"
 	"github.com/google/go-tpm/legacy/tpm2"
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/proto"

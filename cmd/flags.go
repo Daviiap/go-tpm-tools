@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/google/go-tpm-tools/client"
+	"github.com/Daviiap/go-tpm-tools/client"
 	"github.com/google/go-tpm/legacy/tpm2"
 	"github.com/spf13/cobra"
 )

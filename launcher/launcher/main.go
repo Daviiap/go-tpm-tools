@@ -14,15 +14,15 @@ import (
 	"strings"
 
 	"cloud.google.com/go/compute/metadata"
+	"github.com/Daviiap/go-tpm-tools/client"
+	"github.com/Daviiap/go-tpm-tools/launcher"
+	"github.com/Daviiap/go-tpm-tools/launcher/internal/experiments"
+	"github.com/Daviiap/go-tpm-tools/launcher/launcherfile"
+	"github.com/Daviiap/go-tpm-tools/launcher/registryauth"
+	"github.com/Daviiap/go-tpm-tools/launcher/spec"
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/defaults"
 	"github.com/containerd/containerd/namespaces"
-	"github.com/google/go-tpm-tools/client"
-	"github.com/google/go-tpm-tools/launcher"
-	"github.com/google/go-tpm-tools/launcher/internal/experiments"
-	"github.com/google/go-tpm-tools/launcher/launcherfile"
-	"github.com/google/go-tpm-tools/launcher/registryauth"
-	"github.com/google/go-tpm-tools/launcher/spec"
 	"github.com/google/go-tpm/legacy/tpm2"
 )
 

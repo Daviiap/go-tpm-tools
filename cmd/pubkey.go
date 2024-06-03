@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/google/go-tpm-tools/client"
+	"github.com/Daviiap/go-tpm-tools/client"
 	"github.com/google/go-tpm/tpmutil"
 
 	"github.com/google/go-tpm/legacy/tpm2"

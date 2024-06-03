@@ -24,7 +24,7 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/google/go-tpm-tools/simulator/internal"
+	"github.com/Daviiap/go-tpm-tools/simulator/internal"
 	"github.com/google/go-tpm/legacy/tpm2"
 )
 

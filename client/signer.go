@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/google/go-tpm-tools/internal"
+	"github.com/Daviiap/go-tpm-tools/internal"
 	"github.com/google/go-tpm/legacy/tpm2"
 )
 

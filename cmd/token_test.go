@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/go-tpm-tools/client"
-	"github.com/google/go-tpm-tools/internal/test"
-	"github.com/google/go-tpm-tools/verifier/util"
+	"github.com/Daviiap/go-tpm-tools/client"
+	"github.com/Daviiap/go-tpm-tools/internal/test"
+	"github.com/Daviiap/go-tpm-tools/verifier/util"
 	"github.com/google/go-tpm/legacy/tpm2"
 	"github.com/google/go-tpm/tpmutil"
 	"golang.org/x/oauth2"

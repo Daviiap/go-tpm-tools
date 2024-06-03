@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/google/go-tpm-tools/internal/test"
-	pb "github.com/google/go-tpm-tools/proto/attest"
+	"github.com/Daviiap/go-tpm-tools/internal/test"
+	pb "github.com/Daviiap/go-tpm-tools/proto/attest"
 	"google.golang.org/protobuf/proto"
 )
 

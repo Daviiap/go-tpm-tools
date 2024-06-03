@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/google/go-tpm-tools/verifier/oci"
-	"github.com/google/go-tpm-tools/verifier/oci/cosign"
+	"github.com/Daviiap/go-tpm-tools/verifier/oci"
+	"github.com/Daviiap/go-tpm-tools/verifier/oci/cosign"
 )
 
 const (

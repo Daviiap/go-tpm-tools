@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/google/go-tpm-tools/client"
-	"github.com/google/go-tpm-tools/simulator"
+	"github.com/Daviiap/go-tpm-tools/client"
+	"github.com/Daviiap/go-tpm-tools/simulator"
 )
 
 func ExampleVerifyAttestation() {

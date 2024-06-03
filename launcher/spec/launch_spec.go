@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"cloud.google.com/go/compute/metadata"
-	"github.com/google/go-tpm-tools/launcher/internal/experiments"
-	"github.com/google/go-tpm-tools/verifier/util"
+	"github.com/Daviiap/go-tpm-tools/launcher/internal/experiments"
+	"github.com/Daviiap/go-tpm-tools/verifier/util"
 )
 
 // RestartPolicy is the enum for the container restart policy.
